@@ -2,7 +2,7 @@
 
 :root {
   --primary-white: #fff;
-  --primary-orange: #f9ab00;
+  --primary-orange: #ffae00;
   --primary-dark: rgb(255, 255, 255, 0);
 }
 
@@ -54,7 +54,7 @@ nav ul li {
   background: url(/src/assets/images/download.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 85vh;
 }
 
 .main-info {
@@ -79,13 +79,85 @@ nav ul li {
 }
 
 .Cbutton {
+  background-color: var(--primary-orange) !important;
+  color: black !important;
   margin-top: 1.6rem !important;
-  background-color: black !important;
-  border-color: #f9ab00 !important;
+  width: 8rem;
+  height: 2.5rem;
+
   font-weight: bold !important;
 }
 
 .Cbutton:hover {
-  background-color: var(--primary-orange) !important;
-  color: black !important;
+  background-color: black !important;
+  border: 0.15rem solid #f9ab00 !important;
+  color: var(--primary-orange) !important;
+}
+
+/* contact section */
+
+.contact {
+  padding-top: 70px;
+}
+
+.sect {
+  width: 100%;
+  background: url('../src/assets/images/abtbg.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.col-md-7 {
+  padding: 50px;
+}
+.col-md-5 {
+  border-radius: 30px;
+  background-color: var(--primary-orange);
+  padding: 35px !important;
+  color: white;
+}
+.form-control {
+  height: 52px;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  border-radius: 2px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bi {
+  font-size: 20px;
+}
+.d-flex p {
+  font-size: 18px;
+  padding-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+  }
+}
+
+h2.white {
+  padding-top: 30px;
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+p.white {
+  color: white;
+}
+
+.col-md-7 > .Cbutton {
+  background-color: white;
+  border-radius: 10%;
+  width: 8rem;
+  height: ;
 }
