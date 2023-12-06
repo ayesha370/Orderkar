@@ -106,10 +106,7 @@ nav ul li {
   background-size: cover;
 }
 
-.col-md-7 {
-  padding: 50px;
-}
-.col-md-5 {
+.col-md-6 {
   border-radius: 30px;
   background-color: var(--primary-orange);
   padding: 35px !important;
@@ -144,10 +141,11 @@ nav ul li {
   }
 }
 
-h2.white {
-  padding-top: 30px;
+h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: white;
-  font-weight: bolder;
+  font-weight: bolder !important;
   font-size: 40px;
 }
 
@@ -155,9 +153,62 @@ p.white {
   color: white;
 }
 
-.col-md-7 > .Cbutton {
-  background-color: white;
+.d-flex > .Cbutton {
+  background-color: black !important;
+  color: var(--primary-orange) !important;
   border-radius: 10%;
   width: 8rem;
-  height: ;
+}
+
+.d-flex > .Cbutton:hover {
+  color: black !important;
+  border: 0.15rem solid black !important;
+  background-color: var(--primary-orange) !important;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+}
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+  margin-top: 20px;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+.socialIcons a i {
+  font-size: 2em;
+  color: #000;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+.footernav {
+  margin: 20px 0;
+  color: white;
+}
+.footernav ul {
+  display: flex;
+  justify-content: center;
 }

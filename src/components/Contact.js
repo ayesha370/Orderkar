@@ -5,8 +5,8 @@ const Contact = () => {
     <section className='contact sect'>
       <div className='container'>
         <div className='row'>
-          <div className='col-md-5'>
-            <h2>Contact Us</h2>
+          <div className='col-md-6 mx-auto'>
+            <h2 className='text-center'>Contact Us</h2>
             <div className='mb-3'>
               <label htmlFor='formGroupExampleInput' className='form-label'>
                 Full Name
@@ -53,9 +53,10 @@ const Contact = () => {
                 rows='3'
               ></textarea>
             </div>
-            <button className='Cbutton'>Submit</button>
+            <div className='d-flex justify-content-center'>
+              <button className='Cbutton'>Submit</button>
+            </div>
           </div>
-          {/* </div> */}
         </div>
       </div>
     </section>
