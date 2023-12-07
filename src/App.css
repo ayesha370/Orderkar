@@ -172,7 +172,7 @@ footer {
 }
 .footerContainer {
   width: 100%;
-  padding: 70px 30px 20px;
+  padding: 30px 30px 20px;
   margin-top: 20px;
 }
 .socialIcons {
@@ -207,8 +207,4 @@ footer {
 .footernav {
   margin: 20px 0;
   color: white;
-}
-.footernav ul {
-  display: flex;
-  justify-content: center;
 }

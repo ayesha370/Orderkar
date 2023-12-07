@@ -1,92 +1,37 @@
 import React from 'react'
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBCol,
-  MDBRow,
-  MDBIcon,
-  MDBBtn,
-} from 'mdb-react-ui-kit'
 
-export default function Footer() {
+const Footer = () => {
   return (
-    <MDBFooter className='bg-dark text-center text-white'>
-      <MDBContainer className='p-4 pb-0'>
-        <section className='mb-4'>
-          <MDBBtn
-            outline
-            color='light'
-            floating
-            className='m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab icon='facebook-f' />
-          </MDBBtn>
-
-          <MDBBtn
-            outline
-            color='light'
-            floating
-            className='m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab icon='twitter' />
-          </MDBBtn>
-
-          <MDBBtn
-            outline
-            color='light'
-            floating
-            className='m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab icon='google' />
-          </MDBBtn>
-          <MDBBtn
-            outline
-            color='light'
-            floating
-            className='m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab icon='instagram' />
-          </MDBBtn>
-
-          <MDBBtn
-            outline
-            color='light'
-            floating
-            className='m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab icon='linkedin-in' />
-          </MDBBtn>
-
-          <MDBBtn
-            outline
-            color='light'
-            floating
-            className='m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab icon='github' />
-          </MDBBtn>
-        </section>
-      </MDBContainer>
-
-      <div
-        className='text-center p-3'
-        style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}
-      >
-        © 2020 Copyright:
-        <a className='text-white'>MDBootstrap.com</a>
+    <footer>
+      <div className='footerContainer'>
+        <div className='socialIcons'>
+          <a href=''>
+            {' '}
+            <i className='fa-brands fa-facebook'></i>
+          </a>
+          <a href=''>
+            {' '}
+            <i className='fa-brands fa-instagram'></i>
+          </a>
+          <a href=''>
+            {' '}
+            <i className='fa-brands fa-twitter'></i>
+          </a>
+          <a href=''>
+            {' '}
+            <i className='fa-brands fa-google-plus'></i>
+          </a>
+          <a href=''>
+            {' '}
+            <i className='fa-brands fa-youtube'></i>
+          </a>
+        </div>
+        <div className='footernav text-center'>
+          <h4 className='white'>copyright @2023 | OrderKar</h4>
+        </div>
       </div>
-    </MDBFooter>
+    </footer>
   )
 }
+
+export default Footer
