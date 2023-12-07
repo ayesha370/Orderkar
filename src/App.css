@@ -84,7 +84,7 @@ nav ul li {
   margin-top: 1.6rem !important;
   width: 8rem;
   height: 2.5rem;
-
+  border-radius: 10%;
   font-weight: bold !important;
 }
 
@@ -92,6 +92,31 @@ nav ul li {
   background-color: black !important;
   border: 0.15rem solid #f9ab00 !important;
   color: var(--primary-orange) !important;
+}
+
+/* About section */
+.about-section {
+  background-color: rgb(211, 204, 204, 100%);
+  padding-top: 40px;
+}
+
+.about-section .card,
+.about-section .card img {
+  background-color: rgb(211, 204, 204, 100%);
+  width: 500px;
+  height: 500px;
+  padding-left: 70px;
+}
+
+.about-section .text-sec {
+  padding-left: 2rem;
+}
+
+.text-sec > .Cbutton {
+  border-style: none;
+}
+.ab {
+  padding-bottom: 25px;
 }
 
 /* contact section */
